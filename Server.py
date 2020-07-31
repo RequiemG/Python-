@@ -23,10 +23,6 @@ class MySocketServer(socketserver.BaseRequestHandler):
             print("非法客户端")
             self.request.send("".encode())
             self.request.close()
-
-    # 对合法的用户端进行用户认证
-    def handle(self):
-
         while True:
             user_info = json.loads(self.request.recv(1024).decode())
             if user_info["account"] == 'zxj' and user_info["password"] == 'qwer':
@@ -36,6 +32,13 @@ class MySocketServer(socketserver.BaseRequestHandler):
             else:
                 self.request.send("用户名或密码错误".encode())
 
+
+    # 对合法的用户端进行用户认证
+    def handle(self):
+
+        pass
+
+    # 上传下载文件
     def finish(self):
         try:
             while True:

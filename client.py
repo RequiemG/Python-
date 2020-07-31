@@ -25,14 +25,12 @@ if is_hefa:
         sk.send(user_info_json_bytes)
 
         is_true = sk.recv(1024).decode()
-        print(is_true)
-
 
         if is_true == "登入成功":
             print(is_true)
             break
         else:
-            print("登入是包")
+            print(is_true)
 
 
     while True:
