@@ -1,10 +1,7 @@
 import socketserver
-import hashlib
 import os
 import json
 import auth_client
-
-
 
 rand = os.urandom(3)
 verify_code = auth_client.verify(rand)
@@ -32,7 +29,6 @@ class MySocketServer(socketserver.BaseRequestHandler):
             else:
                 self.request.send("用户名或密码错误".encode())
 
-
     # 对合法的用户端进行用户认证
     def handle(self):
 
@@ -52,5 +48,5 @@ class MySocketServer(socketserver.BaseRequestHandler):
 
 
 if __name__ == '__main__':
-    server = socketserver.ThreadingTCPServer(('127.0.0.1',8080),MySocketServer)
+    server = socketserver.ThreadingTCPServer(('127.0.0.1', 8080), MySocketServer)
     server.serve_forever()
