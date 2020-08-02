@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2ac6ac1-f412-445e-8e89-86b6a0580da4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Upload_Download.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/has.py" beforeDir="false" afterPath="$PROJECT_DIR$/has.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Upload_Download.py" beforeDir="false" afterPath="$PROJECT_DIR$/Upload_Download.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,26 +197,38 @@
       <workItem from="1596074537810" duration="4893000" />
       <workItem from="1596094634229" duration="18913000" />
       <workItem from="1596166134587" duration="984000" />
-      <workItem from="1596337323148" duration="3572000" />
+      <workItem from="1596337323148" duration="4338000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;上传下载功能&quot;">
+      <created>1596347374011</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596347374011</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;上传下载功能&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;上传下载功能&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="595" y="206" key="#xdebugger.evaluate" timestamp="1596101728016">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="595" y="206" key="#xdebugger.evaluate/0.0.1680.1010@0.0.1680.1010" timestamp="1596101728016" />
-    <state x="428" y="96" key="CommitChangelistDialog2" timestamp="1596346976428">
+    <state x="428" y="96" key="CommitChangelistDialog2" timestamp="1596348198646">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="428" y="96" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1596346976428" />
-    <state x="620" y="259" key="FileChooserDialogImpl" timestamp="1596337776313">
+    <state x="428" y="96" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1596348198646" />
+    <state x="620" y="259" key="FileChooserDialogImpl" timestamp="1596347718847">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="620" y="259" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1596337776313" />
+    <state x="620" y="259" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1596347718847" />
     <state width="1637" height="301" key="GridCell.Tab.0.bottom" timestamp="1596346978850">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
